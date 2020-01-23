@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: top;
+    /* outline: 1px dotted red; */
+    /* color: black; */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif */
+}
+
+body {
+    background-image: linear-gradient(to bottom, grey, white, grey);
+    background-repeat: no-repeat;
+}
+
+.container {
+    padding: 80px 30px;
+    width: 970px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+    header {
+        margin: 10px 0px;
+    }
+
+        .btn-authors {
+            width: 12%;
+            margin-left: 88%;
+        }
+
+        .btn-books {
+            width: 12%;
+            padding-left: 5px;
+        }
+
+    #title_add {
+        width: 200px;
+        border: 1px solid grey;
+    }
+
+    #desc_add {
+        width: 300px;
+        height: 200px;
+        border: 1px solid grey;
+    }
+
+    #first_name_add, #last_name_add {
+        width: 200px;
+        border: 1px solid grey;
+    }
+
+    #notes_add {
+        width: 300px;
+        height: 200px;
+        border: 1px solid grey;
+    }
+
+
+    #button_add {
+        width: 100px;
+        height: 40px;
+        margin: 30px auto;
+    }
+
+    #table_books {
+        height: 100px;
+        border: 1px solid grey;
+        background-color: white;
+    }
+
+    #table_authors {
+    height: 100px;
+    border: 1px solid grey;
+    background-color: white;
+    }
+
+        .tablebox {
+        height: 490px;
+        margin: 0px;
+        overflow: auto;
+        }
+
+        td, th {
+            text-align: center;
+        }
+
+        .col_id {
+            width: 6%;
+        }
+
+        .col_main {
+            width: 70%;
+        }
+
+        .col_action {
+            width: 12%;
+        }
+
+        .btn-view {
+            width: 40px;
+            height: 20px;
+            padding: 5px;
+            font-size: 7px;
+            line-height: 9px;
+        }
+
+        .btn-del {
+            width: 25px;
+            height: 20px;
+            padding: 5px;
+            font-size: 7px;
+            line-height: 9px;
+        }
+
+/* Specific Pages */
+
+.row-main {
+    height: 500px;
+}
+
+    .btn-remove {
+            width: 40px;
+            height: 20px;
+            padding: 5px;
+            font-size: 7px;
+            line-height: 9px;
+        }
+
+    h5 {
+        margin-left: -15px;
+    }
+
+    select.form-control {
+        width: 80%;
+        display: inline-block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+ 
+    
+}
+    
+@media only screen and (min-width: 481px) {
+
+
+
+}
+    
+@media only screen and (min-width: 1024px) {
+
+
+
+}
